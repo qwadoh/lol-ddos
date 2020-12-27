@@ -4,7 +4,6 @@ import time
 import socket
 import random
 import sys
-def usage():
  print('
  _         _              _      _             
 | |       | |            | |    | |            
