@@ -16,6 +16,7 @@ banner = """
                                           search my channel in tg: @svchost_link     
                                                v 1.0(beta)
 """
+print(banner)
 def flood(victim, vport, duration):
     # Создание сервера
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
