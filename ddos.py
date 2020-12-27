@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# -*- coding: utf-8 -*-
+
 #coded by @qwadoh & @svchost_link
 
 import time
