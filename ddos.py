@@ -1,9 +1,9 @@
 #coded by @qwadoh & @svchost_link
 
-import time
-import socket
-import random
-import sys
+import os
+os.system("clear")
+import requests, random, datetime, sys, time, argparse, os
+from colorama import Fore, Back, Style
 def usage():
 banner = """
  _         _              _      _             
@@ -16,6 +16,7 @@ banner = """
                                           search my channel in tg: @svchost_link     
                                                v 1.0(beta)
 """
+
 print(banner)
 def flood(victim, vport, duration):
     # Создание сервера
