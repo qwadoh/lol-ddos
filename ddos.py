@@ -4,17 +4,16 @@ import time
 import socket
 import random
 import sys
- print('
- _         _              _      _             
-| |       | |            | |    | |            
-| |  ___  | | ______   __| |  __| |  ___   ___ 
-| | / _ \ | ||______| / _` | / _` | / _ \ / __|
-| || (_) || |        | (_| || (_| || (_) |\__ \
-|_| \___/ |_|         \__,_| \__,_| \___/ |___/
-                                          by @qwadoh
-                                          search my channel in tg: @svchost_link     
-                                               v 1.0(beta)
-')
+def usage():
+    print " _         _              _      _             "
+    print "| |       | |            | |    | |            "
+    print "| |  ___  | | ______   __| |  __| |  ___   ___ "
+    print "| | / _ \ | ||______| / _` | / _` | / _ \ / __|"
+    print "| || (_) || |        | (_| || (_| || (_) |\__ \ "
+    print "|_| \___/ |_|         \__,_| \__,_| \___/ |___/"
+    print "                                          by @qwadoh"
+    print "                                          search my channel in tg: @svchost_link"
+    print "                                               v 1.0(beta)"
 def flood(victim, vport, duration):
     # Создание сервера
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
