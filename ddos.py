@@ -5,7 +5,7 @@ import socket
 import random
 import sys
 def usage():
- print = """
+ print('
  _         _              _      _             
 | |       | |            | |    | |            
 | |  ___  | | ______   __| |  __| |  ___   ___ 
@@ -15,7 +15,7 @@ def usage():
                                           by @qwadoh
                                           search my channel in tg: @svchost_link     
                                                v 1.0(beta)
-"""
+')
 def flood(victim, vport, duration):
     # Создание сервера
     client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
